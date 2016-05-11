@@ -10,11 +10,23 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    var rate: Float!
+    
+    @IBOutlet weak var rateLabel: UILabel!
+    var volume: Float!
+    @IBOutlet weak var rateSlider: UISlider!
+    var pitch:Float!
+    var currentRate: Float!
+    @IBOutlet weak var tekstField2: UITextView!
 
     @IBOutlet weak var tekstField1: UITextView!
-    @IBOutlet weak var tekstField2: UITextView!
-    
+  
+@IBAction func rateChange(sender: UISlider) {
+     currentRate = Float (sender.value)
+    rateLabel.text = "\(currentRate)"
+    rate = currentRate
+    }
+
     @IBOutlet weak var tekstiSpeechKit: UITextView!
     let synth = AVSpeechSynthesizer()
     var myUtterance = AVSpeechUtterance(string: "")
@@ -146,14 +158,26 @@ class ViewController: UIViewController {
             }
 
 }
+       
+        
         tekstField2.text = tekst_out
-        myUtterance = AVSpeechUtterance(string: tekstField2.text)
-        myUtterance.rate = 0.3
-        synth.speakUtterance(myUtterance)
-        myUtterance.voice = AVSpeechSynthesisVoice (language: "ru-RU");
-    }
+        for voice in AVSpeechSynthesisVoice.speechVoices() {
+            if #available(iOS 9.0, *) {
+                if voice.name == "Milena" {
+                    voiceToUse = voice
+                }
+            }
+        }
+        myUtterance2 = AVSpeechUtterance(string: tekstField1.text )
+        
+        myUtterance2.voice = voiceToUse
+        
+       myUtterance2.rate = rate
+        synth2.speakUtterance(myUtterance2)
+
+           }
     
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

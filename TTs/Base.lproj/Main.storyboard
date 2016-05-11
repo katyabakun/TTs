@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" text="Напиши текст" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bCa-4u-SFP">
-                                <rect key="frame" x="20" y="53" width="560" height="128"/>
+                                <rect key="frame" x="20" y="53" width="560" height="124"/>
                                 <color key="backgroundColor" red="0.82375889765630061" green="0.97012208089688856" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -26,7 +26,7 @@
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToK-Ez-8th">
-                                <rect key="frame" x="32" y="210" width="63" height="57"/>
+                                <rect key="frame" x="20" y="200" width="63" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" backgroundImage="1461724922_StepForwardNormal.png"/>
                                 <connections>
@@ -47,39 +47,76 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Zapis fonetyczny" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qy7-Wk-5IP">
-                                <rect key="frame" x="20" y="292" width="560" height="128"/>
+                                <rect key="frame" x="20" y="278" width="560" height="136"/>
                                 <color key="backgroundColor" red="1" green="0.94557264326101498" blue="0.82861564957113776" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lQ-SH-G8I">
+                                <rect key="frame" x="25" y="466" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.24153932929039001" green="0.66036272048950195" blue="0.98140746355056763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TeE-eC-W0C">
+                                <rect key="frame" x="134" y="514" width="118" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uK-CH-dBO">
+                                <rect key="frame" x="25" y="518" width="78" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.24153932929039001" green="0.66036272048950195" blue="0.98140746355056763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdh-8g-eTr">
+                                <rect key="frame" x="258" y="462" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                                <color key="textColor" red="0.24153932929039001" green="0.66036272048950195" blue="0.98140746355056763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFq-hm-DFP">
+                                <rect key="frame" x="258" y="518" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                                <color key="textColor" red="0.24153932929039001" green="0.66036272048950195" blue="0.98140746355056763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzv-Qp-dMv">
                                 <rect key="frame" x="258" y="501" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcA-21-jfl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcA-21-jfl">
                                 <rect key="frame" x="20" y="436" width="131" height="30"/>
                                 <state key="normal" title="ButtoniSpeechKit"/>
                                 <connections>
                                     <action selector="buttonTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jl5-5m-Uwo"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Напиши текст" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T5c-SB-Rhr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Напиши текст" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T5c-SB-Rhr">
                                 <rect key="frame" x="20" y="482" width="560" height="86"/>
                                 <color key="backgroundColor" red="0.79473155736923218" green="0.92855173349380493" blue="0.67271316051483154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WXo-Kt-DA2">
+                                <rect key="frame" x="134" y="458" width="118" height="31"/>
+                                <connections>
+                                    <action selector="rateChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="O9p-hL-vxT"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="6cb-aY-aUc"/>
                                 <exclude reference="Zzv-Qp-dMv"/>
+                                <exclude reference="RcA-21-jfl"/>
+                                <exclude reference="T5c-SB-Rhr"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="rateLabel" destination="pdh-8g-eTr" id="0ie-V0-odt"/>
+                        <outlet property="rateSlider" destination="WXo-Kt-DA2" id="SPC-ll-VvG"/>
                         <outlet property="tekstField1" destination="bCa-4u-SFP" id="umZ-Hr-jZT"/>
                         <outlet property="tekstField2" destination="qy7-Wk-5IP" id="mgV-k3-w4F"/>
                         <outlet property="tekstiSpeechKit" destination="T5c-SB-Rhr" id="9En-AG-kBU"/>
@@ -87,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="325" y="400"/>
+            <point key="canvasLocation" x="413" y="263"/>
         </scene>
     </scenes>
     <resources>
