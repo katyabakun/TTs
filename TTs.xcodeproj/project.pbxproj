@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064AD1701CD1191200F91F8A /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064AD16F1CD1191200F91F8A /* SpeechKit.framework */; };
+		064AD1761CD11BA900F91F8A /* FakeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 064AD1751CD11BA900F91F8A /* FakeClass.m */; };
+		064AD1781CD1233C00F91F8A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 064AD1771CD1233C00F91F8A /* libstdc++.6.0.9.tbd */; };
+		064AD17A1CD1243600F91F8A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064AD1791CD1243600F91F8A /* CoreAudio.framework */; };
+		064AD17C1CD1244B00F91F8A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064AD17B1CD1244B00F91F8A /* CoreFoundation.framework */; };
+		064AD17E1CD1246F00F91F8A /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 064AD17D1CD1246F00F91F8A /* libc++abi.tbd */; };
 		06A2B2F51CD015E300D793B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B2F41CD015E300D793B3 /* AppDelegate.swift */; };
 		06A2B2F71CD015E300D793B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B2F61CD015E300D793B3 /* ViewController.swift */; };
 		06A2B2FA1CD015E300D793B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B2F81CD015E300D793B3 /* Main.storyboard */; };
 		06A2B2FC1CD015E300D793B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B2FB1CD015E300D793B3 /* Assets.xcassets */; };
 		06A2B2FF1CD015E300D793B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B2FD1CD015E300D793B3 /* LaunchScreen.storyboard */; };
 		06A2B30A1CD015E300D793B3 /* TTsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A2B3091CD015E300D793B3 /* TTsTests.swift */; };
+		06A2B3151CD0166400D793B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A2B3141CD0166400D793B3 /* Foundation.framework */; };
+		06A2B3171CD0166D00D793B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A2B3161CD0166C00D793B3 /* AVFoundation.framework */; };
+		06A2B3191CD0188F00D793B3 /* 1461724922_StepForwardNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A2B3181CD0188F00D793B3 /* 1461724922_StepForwardNormal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064AD16F1CD1191200F91F8A /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		064AD1731CD11BA900F91F8A /* TTs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTs-Bridging-Header.h"; sourceTree = "<group>"; };
+		064AD1741CD11BA900F91F8A /* FakeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeClass.h; sourceTree = "<group>"; };
+		064AD1751CD11BA900F91F8A /* FakeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeClass.m; sourceTree = "<group>"; };
+		064AD1771CD1233C00F91F8A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		064AD1791CD1243600F91F8A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		064AD17B1CD1244B00F91F8A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		064AD17D1CD1246F00F91F8A /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		06A2B2F11CD015E300D793B3 /* TTs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A2B2F41CD015E300D793B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06A2B2F61CD015E300D793B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +53,9 @@
 		06A2B3051CD015E300D793B3 /* TTsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A2B3091CD015E300D793B3 /* TTsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTsTests.swift; sourceTree = "<group>"; };
 		06A2B30B1CD015E300D793B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A2B3141CD0166400D793B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06A2B3161CD0166C00D793B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		06A2B3181CD0188F00D793B3 /* 1461724922_StepForwardNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1461724922_StepForwardNormal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064AD17E1CD1246F00F91F8A /* libc++abi.tbd in Frameworks */,
+				064AD17C1CD1244B00F91F8A /* CoreFoundation.framework in Frameworks */,
+				064AD17A1CD1243600F91F8A /* CoreAudio.framework in Frameworks */,
+				064AD1781CD1233C00F91F8A /* libstdc++.6.0.9.tbd in Frameworks */,
+				064AD1701CD1191200F91F8A /* SpeechKit.framework in Frameworks */,
+				06A2B3171CD0166D00D793B3 /* AVFoundation.framework in Frameworks */,
+				06A2B3151CD0166400D793B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +86,19 @@
 		06A2B2E81CD015E200D793B3 = {
 			isa = PBXGroup;
 			children = (
+				064AD17D1CD1246F00F91F8A /* libc++abi.tbd */,
+				064AD17B1CD1244B00F91F8A /* CoreFoundation.framework */,
+				064AD1791CD1243600F91F8A /* CoreAudio.framework */,
+				064AD1771CD1233C00F91F8A /* libstdc++.6.0.9.tbd */,
+				064AD1741CD11BA900F91F8A /* FakeClass.h */,
+				064AD1751CD11BA900F91F8A /* FakeClass.m */,
+				064AD16F1CD1191200F91F8A /* SpeechKit.framework */,
+				06A2B3161CD0166C00D793B3 /* AVFoundation.framework */,
+				06A2B3141CD0166400D793B3 /* Foundation.framework */,
 				06A2B2F31CD015E300D793B3 /* TTs */,
 				06A2B3081CD015E300D793B3 /* TTsTests */,
 				06A2B2F21CD015E300D793B3 /* Products */,
+				064AD1731CD11BA900F91F8A /* TTs-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +120,7 @@
 				06A2B2FB1CD015E300D793B3 /* Assets.xcassets */,
 				06A2B2FD1CD015E300D793B3 /* LaunchScreen.storyboard */,
 				06A2B3001CD015E300D793B3 /* Info.plist */,
+				06A2B3181CD0188F00D793B3 /* 1461724922_StepForwardNormal.png */,
 			);
 			path = TTs;
 			sourceTree = "<group>";
@@ -177,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A2B3191CD0188F00D793B3 /* 1461724922_StepForwardNormal.png in Resources */,
 				06A2B2FF1CD015E300D793B3 /* LaunchScreen.storyboard in Resources */,
 				06A2B2FC1CD015E300D793B3 /* Assets.xcassets in Resources */,
 				06A2B2FA1CD015E300D793B3 /* Main.storyboard in Resources */,
@@ -197,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064AD1761CD11BA900F91F8A /* FakeClass.m in Sources */,
 				06A2B2F71CD015E300D793B3 /* ViewController.swift in Sources */,
 				06A2B2F51CD015E300D793B3 /* AppDelegate.swift in Sources */,
 			);
@@ -325,10 +365,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TTs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TTs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TTs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,10 +386,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TTs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TTs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TTs-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -386,6 +445,7 @@
 				06A2B3101CD015E300D793B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06A2B3111CD015E300D793B3 /* Build configuration list for PBXNativeTarget "TTsTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +454,7 @@
 				06A2B3131CD015E300D793B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
